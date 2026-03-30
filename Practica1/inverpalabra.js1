@@ -1,0 +1,14 @@
+function miFuncion(cad) {
+    let invertido = "";
+    
+    for (let i = cad.length - 1; i >= 0; i--) {
+        invertido = invertido + cad[i];
+    }
+    
+    return invertido;
+}
+
+let cad = "abcd";
+let obj = miFuncion(cad);
+
+console.log(obj); // dcba
